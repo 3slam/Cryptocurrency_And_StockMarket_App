@@ -13,17 +13,6 @@
  
 
 # Screens
- 
-
-![Screenshot_20230911_111036_Cryptocurrency App](
-![Screenshot_20230911_111044_Cryptocurrency App]()
- 
-
-
-
-
-
-
 
 <div>
  <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/f8510abc-75c8-4283-b149-62420778d64a" width="250" hight="400">

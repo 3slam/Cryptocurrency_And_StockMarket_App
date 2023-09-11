@@ -1,10 +1,10 @@
 package com.example.cryptocurrencyapp.common
 
-import com.example.cryptocurrencyapp.data.dataSource.remote.coinsResponse.CoinDetailDto
-import com.example.cryptocurrencyapp.data.dataSource.remote.coinsResponse.CoinDto
+import com.example.cryptocurrencyapp.data.dataSource.remote.dto.CoinDetailDto
+import com.example.cryptocurrencyapp.data.dataSource.remote.dto.CoinDto
 import com.example.cryptocurrencyapp.domain.entity.Coin
 import com.example.cryptocurrencyapp.domain.entity.CoinDetail
-import com.example.cryptocurrencyapp.presentation.navigation.Screen
+
 
 fun toCoin(coinDto: CoinDto): Coin {
     return Coin(
@@ -30,9 +30,9 @@ fun toCoinDetails(coinDetailsDto: CoinDetailDto): CoinDetail {
         symbol =coinDetailsDto.symbol    ,
         rank =  coinDetailsDto.rank ,
         isActive = coinDetailsDto.is_active ,
-        tags = coinDetailsDto.tags.map { it.toString() } ,
-        team = coinDetailsDto.team
+        tags = coinDetailsDto.tags.map { it.name } ,
+        team = coinDetailsDto.team ,
+        links =coinDetailsDto.links.facebook
     )
 }
-
 

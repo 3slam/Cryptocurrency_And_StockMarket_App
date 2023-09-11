@@ -1,7 +1,7 @@
 package com.example.cryptocurrencyapp.data.dataSource.remote
 
-import com.example.cryptocurrencyapp.data.dataSource.remote.coinsResponse.CoinDetailDto
-import com.example.cryptocurrencyapp.data.dataSource.remote.coinsResponse.CoinDto
+import com.example.cryptocurrencyapp.data.dataSource.remote.dto.CoinDetailDto
+import com.example.cryptocurrencyapp.data.dataSource.remote.dto.CoinDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 

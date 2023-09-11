@@ -9,6 +9,8 @@ import com.example.cryptocurrencyapp.domain.entity.CoinDetail
 import com.example.cryptocurrencyapp.domain.repository.CoinRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
+import retrofit2.HttpException
+import java.io.IOException
 import javax.inject.Inject
 
 class CoinRepositoryImpl @Inject constructor(
@@ -17,15 +19,18 @@ class CoinRepositoryImpl @Inject constructor(
     override suspend fun getCoins(): Flow<UiState<List<Coin>>> = flow {
         try {
 
-         emit(UiState.Loading)
-         val result = coinService.getCoins()
-         emit(UiState.Success(toCoinList(result)))
+            emit(UiState.Loading)
+            val result = coinService.getCoins()
+            emit(UiState.Success(toCoinList(result)))
 
-        }catch (e:Exception){
-
+        } catch(e: IOException) {
             emit(UiState.Error(e.message.toString()))
-
+        } catch (e: HttpException){
+            emit(UiState.Error(e.message.toString()))
+        } catch (e: Exception){
+            emit(UiState.Error(e.message.toString()))
         }
+
     }
 
     override suspend fun getCoinById(coinId: String): Flow<UiState<CoinDetail>> = flow {
@@ -35,10 +40,12 @@ class CoinRepositoryImpl @Inject constructor(
             val result = coinService.getCoinById(coinId)
             emit(UiState.Success(toCoinDetails(result)))
 
-        }catch (e:Exception){
-
+        } catch(e: IOException) {
             emit(UiState.Error(e.message.toString()))
-
+        } catch (e: HttpException){
+            emit(UiState.Error(e.message.toString()))
+        } catch (e: Exception){
+            emit(UiState.Error(e.message.toString()))
         }
     }
 

@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.cryptocurrencyapp"
-        minSdk 24
+        minSdk 26
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -80,9 +80,12 @@ dependencies {
     implementation 'androidx.hilt:hilt-navigation-compose:1.1.0-alpha01'
 
     // Retrofit
+
+
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-    implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0")
+    implementation 'com.squareup.retrofit2:converter-moshi:2.9.0'
+    implementation "com.squareup.okhttp3:okhttp:5.0.0-alpha.3"
+    implementation "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.3"
 
 
     //Coroutines
@@ -95,4 +98,23 @@ dependencies {
     kapt "androidx.room:room-compiler:2.2.4"
     implementation "androidx.room:room-ktx:2.2.5"
 
+
+    // OpenCSV
+    implementation 'com.opencsv:opencsv:5.5.2'
+
+    // Splash API
+    implementation 'androidx.core:core-splashscreen:1.0.0-beta01'
+
+    // Pager and Indicators - Accompanist
+
+    implementation "com.google.accompanist:accompanist-pager:0.24.2-alpha"
+    implementation "com.google.accompanist:accompanist-pager-indicators:0.24.2-alpha"
+
+    /// Lottie
+    implementation "com.airbnb.android:lottie-compose:5.2.0"
+
+    //system ui controller
+    implementation "com.google.accompanist:accompanist-systemuicontroller:0.17.0"
+
+    implementation 'co.yml:ycharts:2.1.0'
 }

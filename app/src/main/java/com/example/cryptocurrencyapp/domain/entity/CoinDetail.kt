@@ -1,6 +1,6 @@
 package com.example.cryptocurrencyapp.domain.entity
 
-import com.example.cryptocurrencyapp.data.dataSource.remote.coinsResponse.Team
+import com.example.cryptocurrencyapp.data.dataSource.remote.dto.Team
 
 
 data class CoinDetail(
@@ -11,6 +11,7 @@ data class CoinDetail(
     val rank: Int,
     val isActive: Boolean,
     val tags: List<String>,
-    val team: List<Team>
+    val team: List<Team> ,
+    val links : List<String>
 )
 

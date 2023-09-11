@@ -1,16 +1,19 @@
 package com.example.cryptocurrencyapp.di
 
 
-import com.example.cryptocurrencyapp.common.BASE_URL
+import com.example.cryptocurrencyapp.common.BASE_URL_FOR_COINS
+import com.example.cryptocurrencyapp.common.BASE_URL_FOR_COMPANY
 import com.example.cryptocurrencyapp.data.dataSource.remote.CoinService
- import dagger.Module
+import com.example.cryptocurrencyapp.data.dataSource.remote.CompanyService
+import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.converter.moshi.MoshiConverterFactory
 import java.util.concurrent.TimeUnit
+import javax.inject.Named
 import javax.inject.Singleton
 
 
@@ -30,19 +33,39 @@ object NetworkModule {
 
     @Provides
     @Singleton
-    fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit{
+    @Named("provideRetrofitForCoins")
+    fun provideRetrofitForCoins(okHttpClient: OkHttpClient): Retrofit{
         return Retrofit.Builder()
-            .baseUrl(BASE_URL)
+            .baseUrl(BASE_URL_FOR_COINS)
             .client(okHttpClient)
-            .addConverterFactory(GsonConverterFactory.create())
+            .addConverterFactory(MoshiConverterFactory.create())
             .build()
+    }
+
+    @Provides
+    @Singleton
+    fun provideApiServiceForCoin(@Named("provideRetrofitForCoins") retrofit: Retrofit): CoinService {
+        return  retrofit.create(CoinService::class.java)
     }
 
 
     @Provides
     @Singleton
-    fun provideApiService(retrofit: Retrofit): CoinService {
-        return  retrofit.create(CoinService::class.java)
+    @Named("provideRetrofitForCompanies")
+    fun provideRetrofitForCompanies(okHttpClient: OkHttpClient): Retrofit{
+        return Retrofit.Builder()
+            .baseUrl(BASE_URL_FOR_COMPANY)
+            .client(okHttpClient)
+            .addConverterFactory(MoshiConverterFactory.create())
+            .build()
     }
+
+    @Provides
+    @Singleton
+    fun provideApiServiceCompanies(@Named("provideRetrofitForCompanies") retrofit: Retrofit): CompanyService {
+        return  retrofit.create(CompanyService::class.java)
+    }
+
+
 
 }

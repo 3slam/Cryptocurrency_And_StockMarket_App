@@ -8,6 +8,6 @@ interface CoinRepository {
 
     suspend fun getCoins(): Flow<UiState<List<Coin>>>
 
-   suspend fun getCoinById(coinId: String): Flow<UiState<CoinDetail>>
+    suspend fun getCoinById(coinId: String): Flow<UiState<CoinDetail>>
 
 }

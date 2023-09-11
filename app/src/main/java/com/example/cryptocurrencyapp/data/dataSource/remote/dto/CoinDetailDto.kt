@@ -1,4 +1,4 @@
-package com.example.cryptocurrencyapp.data.dataSource.remote.coinsResponse
+package com.example.cryptocurrencyapp.data.dataSource.remote.dto
 
 data class CoinDetailDto(
     val description: String,

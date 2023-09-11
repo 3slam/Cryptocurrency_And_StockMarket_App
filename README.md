@@ -1,8 +1,6 @@
-# Music Player APP 
-
-Music Player app is a sample Android application for playing musics.
-
-# Architecture - Clean Arch (UI-Data-Domain)
+# Cryptocurrency And Stock Market 
+ 
+# Clean Architecture (UI-Data-Domain)
 <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/bb9fc6db-a080-408a-aff3-78ec5d148574" width="600" hight="400" >
 
 # Features 

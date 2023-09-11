@@ -1,7 +1,7 @@
 # Cryptocurrency And Stock Market 
  
 # Clean Architecture (UI-Data-Domain)
-<img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/bb9fc6db-a080-408a-aff3-78ec5d148574.png" width="600" hight="400" >
+<img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/fd29d3ca-d707-465a-a9cf-e8a6814851ab" width="600" hight="400" >
 
 # Features 
 
@@ -15,30 +15,44 @@
 # Screens
  
 
+![Screenshot_20230911_111036_Cryptocurrency App](
+![Screenshot_20230911_111044_Cryptocurrency App]()
+ 
+
+
+
+
+
+
+
 <div>
- <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/2707f35b-ce21-4d00-b643-9cfdf99af3a5" width="250" hight="400">
- <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/2f70f16d-7053-45a7-bb86-decbe5da9767" width="250" hight="400" >
- <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/5e203494-ba11-4315-a4e9-7e264afb5049" width="250" hight="400" >
+ <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/f8510abc-75c8-4283-b149-62420778d64a" width="250" hight="400">
+ <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/de94d92b-2ba0-4b10-9339-81d6bf57109f" width="250" hight="400" >
+ <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/f7dedf87-6962-4e18-b69a-aecbe8267ce4" width="250" hight="400" >
 </div>
 
 <div>
- <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/c7c15e98-896c-45cd-ba7c-4dd634f29129" width="250" hight="400">
- <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/b4849b7a-7496-4a44-9f2d-98b2dfed6fe9" width="250" hight="400" >
- <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/91d7a1dc-5439-4e3a-9356-66afbdb70d32" width="250" hight="400" >
+ 
+ 
+ <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/a5e37ddf-c8ed-435c-b232-fd407b838441" width="250" hight="400" >
+ <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/e6e46995-32a8-48b8-ba64-fafcc6064db0" width="250" hight="400" >
+  <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/bf63500a-216d-4213-9f63-3f184b5ea318" width="250" hight="400">
 </div>
-
+ 
 <div>
- <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/78cecdae-a25e-47ef-b042-548b3b95204b" width="250" hight="400">
- <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/b33d7281-e68f-4ff1-9c64-00c593b0bfd5" width="250" hight="400" >
- <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/acf33213-0a83-4f56-9998-ab8bf403637b" width="250" hight="400" >
-</div>
-
-<div>
- <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/004a4f0c-7a50-42d9-b0d2-34cc9abf0cb9" width="250" hight="400">
- <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/e0c81ee4-79c6-4cb9-8152-7623e9a00e58" width="250" hight="400" >
+ <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/8b4d0c64-e820-4031-8b41-fdf10ad07270" width="250" hight="400" >
+ <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/33c4ca19-7c48-4bbc-b590-776edebc0620" width="250" hight="400" >
+ <img src ="hhttps://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/9175de02-dea8-4b84-958b-e481f25e4500" width="250" hight="400">
+ 
 </div>
  
 
+<div>
+   <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/b492865d-0eba-4e03-a537-e6119192c6a3" width="250" hight="400" >
+  <img src ="https://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/a01d6e90-7f23-41e2-96c4-03a4288b8ce9" width="250" hight="400" >
+   <img src ="hhttps://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/9175de02-dea8-4b84-958b-e481f25e4500" width="250" hight="400">
+</div>
+ 
  #  libraries and tools
 - [Jetpack Compose](https://developer.android.com/jetpack/compose/tutorial)
 - [Flows](https://developer.android.com/kotlin/flow)

@@ -10,8 +10,22 @@
 - Users can click on any cryptocurrency in the list to access a detailed view with an awesome Animation
  
 - Displaying Company Stock List and can search between them and also an awesome chart.
- 
 
+   **Demo Video**<br/>
+
+ https://github.com/3slam/Authentication_System_APP/assets/82102228/2a2ed6a8-e97f-4700-b35e-dcad24213394
+
+ #  libraries and tools
+- [Jetpack Compose](https://developer.android.com/jetpack/compose/tutorial)
+- [Flows](https://developer.android.com/kotlin/flow)
+- [Navigation component](https://developer.android.com/jetpack/compose/navigation)
+- [Dependency injection with Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
+- [coroutines](https://developer.android.com/kotlin/coroutines)
+- [viewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
+- [Retrofit](https://square.github.io/retrofit/)
+- [OkHttpClient](https://square.github.io/okhttp/)
+- [Lottie](https://github.com/airbnb/lottie-android)
+  
 # Screens
 
 <div>
@@ -42,15 +56,6 @@
    <img src ="hhttps://github.com/3slam/Cryptocurrency_And_StockMarket_App/assets/82102228/9175de02-dea8-4b84-958b-e481f25e4500" width="250" hight="400">
 </div>
  
- #  libraries and tools
-- [Jetpack Compose](https://developer.android.com/jetpack/compose/tutorial)
-- [Flows](https://developer.android.com/kotlin/flow)
-- [Navigation component](https://developer.android.com/jetpack/compose/navigation)
-- [Dependency injection with Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
-- [coroutines](https://developer.android.com/kotlin/coroutines)
-- [viewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
-- [Retrofit](https://square.github.io/retrofit/)
-- [OkHttpClient](https://square.github.io/okhttp/)
-- [Lottie](https://github.com/airbnb/lottie-android)
+
   
 ### Thanks For Reading.
